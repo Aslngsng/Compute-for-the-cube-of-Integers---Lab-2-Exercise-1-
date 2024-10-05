@@ -1,3 +1,15 @@
 #ask for the base
 #ask for the power
 #perform the operation
+
+base = int(input("Enter a number: "))
+
+power = int(input("Enter a power: "))
+
+result = 1
+
+for i in range(power):
+    result = base ** power
+
+print ("The final value is ",  result)
+
